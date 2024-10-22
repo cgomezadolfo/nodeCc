@@ -1,18 +1,11 @@
 {
-  "name": "fcc-learn-npm-package-json",
-  "author": "foobar",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "main": "server.js",
+  "name": "mi-paquete",
+  "version": "1.0.0",
+  "description": "Mi primer paquete de Node.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "8.11.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cgomezadolfo/nodeCc"
-  }
+  "author": "freeCodeCamp",
+  "license": "ISC"
 }
